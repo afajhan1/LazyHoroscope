@@ -11,10 +11,10 @@ int main()
   string lastname;
  
  //get user input
-  cout<<"what is your first name?\n";
+  cout<<"What is your first name?\n";
   cin>>firstname;
 
-  cout<<"what is your last name?\n";
+  cout<<"What is your last name?\n";
   cin>>lastname;
 
   //tell fortune
@@ -42,7 +42,7 @@ int main()
   if(lastname[len -1]=='a'||lastname[len -1]=='e'||lastname[len -1]=='i'||lastname[len -1]=='o'||lastname[len -1]=='u')
   {
              cout<<"you have already met your true love.\n";
-             
+             cout<<"have a good day!\n";
   }
   else
   {
